@@ -1,0 +1,158 @@
+
+body, html, #root, .portfolio-bg {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f7f7e6 0%, #b3c6ff 100%);
+}
+
+
+.portfolio-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.portfolio-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  max-width: 1100px;
+  width: 95vw;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+.portfolio-header {
+  text-align: left;
+  margin-bottom: 2.5rem;
+  display: flex
+}
+
+.portfolio-left {
+  flex: 1;
+  text-align: left;
+}
+
+.portfolio-right {
+  flex: 1;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #2346ff;
+  margin: 0 0 0.2em 0;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
+.portfolio-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 1.5em 0;
+}
+
+.portfolio-intro {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+.portfolio-intro a {
+  color: #2346ff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.portfolio-faves {
+  margin-top: 2.5rem;
+}
+.portfolio-faves-title {
+  text-align: center;
+  color: #2346ff;
+  font-size: 2.2rem;
+  letter-spacing: 0.5em;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.portfolio-project-card {
+  background: #fafaff;
+  border-radius: 12px;
+  color: #000000;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  width: 100%;
+  overflow: hidden;
+  min-height: 220px;
+}
+
+.portfolio-project-img {
+  width: 260px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portfolio-project-content {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-project-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.portfolio-project-skills {
+  color: #b22234;
+  font-size: 1rem;
+  margin-top: 1em;
+}
+.portfolio-project-skills span {
+  color: #b22234;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .portfolio-projects {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .portfolio-project-card {
+    flex-direction: column;
+    max-width: 100%;
+    min-height: unset;
+  }
+  .portfolio-project-img {
+    width: 100%;
+    height: 180px;
+  }
+}
