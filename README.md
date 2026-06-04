@@ -67,3 +67,7 @@ export default tseslint.config([
   },
 ])
 ```
+
+
+---
+*If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
