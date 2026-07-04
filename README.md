@@ -68,7 +68,6 @@ export default tseslint.config([
 ])
 ```
 
-
 ---
 *If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
 
@@ -76,7 +75,6 @@ export default tseslint.config([
 - **Tech Stack:** React, Node.js/NPM
 - **Repository Size:** 23 tracked files
 - **Latest Update:** `09c3f7f chore: add stale issue and PR validators`
-
 
 ---
 *☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
